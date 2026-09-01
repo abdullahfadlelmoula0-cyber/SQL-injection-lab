@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-900;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 border border-slate-200;
+}
+
+.btn-primary {
+  @apply bg-portal-navy text-white px-4 py-2 rounded-md font-medium hover:bg-slate-800 transition-colors;
+}
+
+.input-field {
+  @apply w-full border border-slate-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-portal-navy;
+}
